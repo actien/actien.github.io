@@ -1,4 +1,5 @@
 name: Andy Tien
+title: Andy Tien
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title

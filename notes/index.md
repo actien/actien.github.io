@@ -2,10 +2,8 @@
 layout: default
 title: Notes
 ---
-# {{ page.title }}
 
-Collection of my thoughts on various topics:
+# Notes
 
+Here is a collection of random thoughts on various topics:
 * [Fitness](fitness)
-
-
