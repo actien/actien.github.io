@@ -5,12 +5,9 @@ title: Book Reviews
     <h1>{{ page.title }} </h1>
     <ul class="posts">
         {% for review in site.tags.book-review %}
-        <h2> {{ review.title }} </h2>
-        {{ review.content }}
-
-        <hr>
-
+        <li><span>{{ review.date | date_to_string }}</span>: 
+        <a href="{{ review.url }}" title="{{ review.title }}">{{ review.title }}</a></li>
         {% endfor %}
-
+        <hr>
         You've reached the end! Stay tuned for more book reviews.
     </ul>

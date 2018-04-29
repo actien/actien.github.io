@@ -7,3 +7,6 @@ Run the local server:
     bundle exec jekyll serve
 
 
+Organization:
+- Static notes go under the notes folder
+- make new posts with tag book-review to get them rendered on book reviews.
